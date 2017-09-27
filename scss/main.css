@@ -1,0 +1,64 @@
+@import url(http//:fonts.googleapis.com/css?family=Roboto);
+/* line 33, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+h2 {
+  color: primary-text-color; }
+
+/* line 37, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 41, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+.panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid darkgreen;
+  background-color: green; }
+  /* line 42, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  .panel img {
+    float: left;
+    padding: 15px 15px 15px 15px; }
+  /* line 23, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  .panel:before, .panel:after {
+    content: "";
+    display: table; }
+  /* line 28, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  .panel:after {
+    clear: both; }
+  /* line 50, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  .panel p {
+    text-align: right;
+    padding: 15px 15px 15px 15px; }
+
+/* line 56, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+nav {
+  width: 100%; }
+  /* line 58, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  nav ul {
+    background-color: darkslategray;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  /* line 65, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  nav li {
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 45px;
+    width: 100px;
+    height: 45px; }
+  /* line 72, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  nav a {
+    display: block;
+    text-decoration: none;
+    transition: 0.3s darkslategray;
+    color: white; }
+    /* line 77, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+    nav a:hover {
+      background-color: #558f8f; }
+  /* line 82, /Users/khansen14/Desktop/sassExample/scss/main.scss */
+  nav body {
+    font-family: "Roboto Slab", serif; }
+
+/*# sourceMappingURL=main.css.map */
