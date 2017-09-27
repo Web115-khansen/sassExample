@@ -1,1 +1,51 @@
+@import url(http//:fonts.googleapis.com/css?family=Roboto);
+h2 {
+  color: primary-text-color; }
 
+* {
+  box-sizing: border-box; }
+
+.panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid darkgreen;
+  background-color: green; }
+  .panel img {
+    float: left;
+    padding: 15px 15px 15px 15px; }
+  .panel:before, .panel:after {
+    content: "";
+    display: table; }
+  .panel:after {
+    clear: both; }
+  .panel p {
+    text-align: right;
+    padding: 15px 15px 15px 15px; }
+
+nav {
+  width: 100%; }
+  nav ul {
+    background-color: darkslategray;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    display: inline-block;
+    font-size: 1.3em;
+    line-height: 45px;
+    width: 100px;
+    height: 45px; }
+  nav a {
+    display: block;
+    text-decoration: none;
+    transition: 0.3s darkslategray;
+    color: white; }
+    nav a:hover {
+      background-color: #558f8f; }
+  nav body {
+    font-family: "Roboto Slab", serif; }
+
+/*# sourceMappingURL=main.css.map */
